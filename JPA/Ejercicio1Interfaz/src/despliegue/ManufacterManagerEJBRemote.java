@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejb;
+package despliegue;
 
 import javax.ejb.Remote;
 
@@ -12,8 +12,8 @@ import javax.ejb.Remote;
  * @author alvarocr
  */
 @Remote
-public interface HelloWorldBeanRemote {
+public interface ManufacterManagerEJBRemote {
 
-    void sayHello(String name);
+    void diHola(String name);
     
 }
